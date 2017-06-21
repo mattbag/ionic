@@ -52,8 +52,8 @@ import { SelectPopover, SelectPopoverOption } from './select-popover-component';
  * <ion-item>
  *   <ion-label>Gender</ion-label>
  *   <ion-select [(ngModel)]="gender">
- *     <ion-option value="f">Female</ion-option>
- *     <ion-option value="m">Male</ion-option>
+ *     <ion-option [value]="f">Female</ion-option>
+ *     <ion-option [value]="m">Male</ion-option>
  *   </ion-select>
  * </ion-item>
  * ```
